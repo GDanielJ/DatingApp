@@ -113,4 +113,8 @@ C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netco
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.MvcApplicationPartsAssemblyInfo.cache
