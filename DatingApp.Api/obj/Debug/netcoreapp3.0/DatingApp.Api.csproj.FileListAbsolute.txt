@@ -117,4 +117,7 @@ C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netco
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.MvcApplicationPartsAssemblyInfo.cache
