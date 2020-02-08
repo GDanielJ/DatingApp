@@ -114,7 +114,6 @@ C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netco
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.csprojAssemblyReference.cache
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\staticwebassets\DatingApp.Api.StaticWebAssets.Manifest.cache
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\staticwebassets\DatingApp.Api.StaticWebAssets.xml
-C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.AssemblyInfoInputs.cache
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.AssemblyInfo.cs
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.RazorTargetAssemblyInfo.cache
@@ -122,3 +121,7 @@ C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netco
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.pdb
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Data\UserSeedData.json
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.MvcApplicationPartsAssemblyInfo.cache
