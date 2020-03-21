@@ -126,3 +126,5 @@ C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netco
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\AutoMapper.dll
 C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\bin\Debug\netcoreapp3.0\CloudinaryDotNet.dll
+C:\Users\johan\source\repos\GDanielJ\DatingApp.Api\DatingApp.Api\obj\Debug\netcoreapp3.0\DatingApp.Api.MvcApplicationPartsAssemblyInfo.cache
