@@ -78,7 +78,7 @@ namespace DatingApp.Api.Controllers
         {
             var sender = _repo.GetUser(userId);
 
-            if (sender.Id != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value))
+            if (userId != int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value)) //sender.Id
                 return Unauthorized();
 
             messageForCreationDto.SenderId = userId;
