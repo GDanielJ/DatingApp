@@ -18,7 +18,7 @@ namespace DatingApp.Api.Data
                 var users = JsonConvert.DeserializeObject<List<User>>(userData);
                 foreach (var user in users)
                 {
-                    userManager.CreateAsync(user, "password");
+                    userManager.CreateAsync(user, "password").Wait();
                 }
             }
         }
