@@ -26,14 +26,16 @@ namespace DatingApp.Api.Controllers
         private readonly IMapper _mapper;
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
+        private readonly DataContext _context;
 
         public AuthController(IConfiguration config, IMapper mapper, 
-            UserManager<User> userManager, SignInManager<User> signInManager)
+            UserManager<User> userManager, SignInManager<User> signInManager, DataContext context)
         {
             _config = config;
             _mapper = mapper;
             _userManager = userManager;
             _signInManager = signInManager;
+            _context = context;
         }
 
         [HttpPost("register")]
@@ -62,6 +64,9 @@ namespace DatingApp.Api.Controllers
 
             if (results.Succeeded)
             {
+                var userPhotos = _context.Photos.Where(p => p.UserId == user.Id).ToList();
+                user.Photos = userPhotos;
+
                 var appUser = _mapper.Map<UserForListDto>(user);
 
                 return Ok(new
