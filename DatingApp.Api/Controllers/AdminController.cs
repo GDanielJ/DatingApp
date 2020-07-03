@@ -4,7 +4,10 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using DatingApp.Api.Data;
+using DatingApp.Api.Dtos;
+using DatingApp.Api.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,10 +18,12 @@ namespace DatingApp.Api.Controllers
     public class AdminController : ControllerBase
     {
         private readonly DataContext _context;
+        private readonly UserManager<User> _userManager;
 
-        public AdminController(DataContext context)
+        public AdminController(DataContext context, UserManager<User> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         [Authorize(Policy = "RequireAdminRole")]
@@ -37,6 +42,31 @@ namespace DatingApp.Api.Controllers
             }).ToListAsync();
 
             return Ok(userList);
+        }
+
+        [Authorize(Policy = "RequireAdminRole")]
+        [HttpPost]
+        [Route("editRoles/{userName}")]
+        public async Task<IActionResult> EditRoles(string userName, RoleEditDto roleEditDto)
+        {
+            var user = await _userManager.FindByNameAsync(userName);
+
+            var userRoles = await _userManager.GetRolesAsync(user);
+
+            var selectedRoles = roleEditDto.RoleNames;
+
+            selectedRoles = selectedRoles ?? new string[] { };
+            var result = await _userManager.AddToRolesAsync(user, selectedRoles.Except(userRoles));
+
+            if (!result.Succeeded)
+                return BadRequest("Failed to add roles");
+
+            result = await _userManager.RemoveFromRolesAsync(user, userRoles.Except(selectedRoles));
+
+            if (!result.Succeeded)
+                return BadRequest("Failed to remove roles");
+
+            return Ok(await _userManager.GetRolesAsync(user));
         }
 
         [Authorize(Policy = "ModeratePhotoRole")]
